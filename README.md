@@ -6,13 +6,19 @@ This repository contains our solution for the MICCAI 2024 CXR-LT (Chest X-Ray Lo
 
 We present an ensemble method for long-tailed chest X-ray (CXR) classification using ConvNeXt V2 and MaxViT models. Our approach combines state-of-the-art image classification techniques with asymmetric loss for handling class imbalance and view-based prediction aggregation to enhance overall performance.
 
-### Key Features
+## Repository Structure
 
-- Ensemble of ConvNeXt V2 and MaxViT models
-- Domain-specific pretraining on NIH Chest X-ray dataset
-- Asymmetric loss function to address long-tailed distribution
-- View-based prediction aggregation for multi-view CXR studies
-- Effective data preprocessing and augmentation techniques
+The `code` directory contains the following Python scripts:
+
+- `config.py`: Configuration settings for the project
+- `dataset.py`: Dataset handling and preprocessing
+- `inference.py`: Model inference logic
+- `model.py`: Model architecture definitions
+- `postprocess.py`: Post-processing techniques including view-based aggregation
+- `run_inference.py`: Script to run inference on test data
+- `run_training.py`: Script to initiate the training process
+- `train.py`: Training loop and logic
+- `utils.py`: Utility functions used across the project
 
 ## Citation
 
