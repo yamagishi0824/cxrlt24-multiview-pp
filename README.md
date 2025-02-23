@@ -25,5 +25,15 @@ The `code` directory contains the following Python scripts:
 If you find this work useful for your research, please consider citing our paper:
 
 ```bibtex
-coming soon...
+@misc{yamagishi2024ensembleconvnextv2maxvit,
+      title={Ensemble of ConvNeXt V2 and MaxViT for Long-Tailed CXR Classification with View-Based Aggregation}, 
+      author={Yosuke Yamagishi and Shouhei Hanaoka},
+      year={2024},
+      eprint={2410.10710},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.10710}, 
+}
 ```
+
+A summary paper for the MICCAI 2024 CXR-LT Challenge will be published in the future. Once available, we will update this section with the relevant citation information.
